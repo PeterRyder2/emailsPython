@@ -12,7 +12,7 @@ EMAIL_PASSWORD = os.environ.get("googleAppPasswordPython")
 msg  = EmailMessage()
 msg['Subject'] = "Testing for the third"
 msg["From"]  =  EMAIL_ADDRESS
-msg['To'] = 'ale.macca@hotmail.com'
+msg['To'] = 'peter.ryder2@gmail.com'
 msg.set_content("i love you  ")
 
 
